@@ -1,6 +1,13 @@
 import java.util.concurrent.CountDownLatch;
 
-
+/**
+ * if you change the sStartingLatch count number larger than 10
+ * this program will never run till Thread* compete execution
+ * or if you change the sEndingLatch counter number larger than 3
+ * this program will never come to the end line,hence you every 
+ * count number should be equivalent with the number that will 
+ * count down 
+ */
 public class CountDownLatchTest {
 	
 	
